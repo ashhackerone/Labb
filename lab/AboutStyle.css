@@ -1,0 +1,81 @@
+  .header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color: cadetblue;
+   }
+ 
+   .container{
+    background-color: rgb(red, green, blue);
+   }
+ 
+   .books{
+
+     font-family: Arial, Helvetica, sans-serif;
+   }
+ 
+ #link1{
+   text-decoration: none;
+
+ }
+ #link1:hover{
+   text-decoration: underline;
+
+ }
+ #link2{
+   text-decoration: none;
+   
+ }
+ #link2:hover{
+   text-decoration: underline;
+   
+ }
+ h1{
+
+   clear: left;
+ }
+ .image1{
+
+float: center ;
+ }
+ p:first-letter {
+   font-size:200%;
+   font-weight:bold;
+   float:left;
+ }
+ h3:first-letter {
+   font-size:120%;
+   font-weight:bold;
+   float:left;
+ }
+ .moods {
+     clear: left;
+   }
+ .intro {
+     color: green;
+     
+   }
+   .cssmarquee {
+     height: 50px;
+     overflow: hidden;
+     position: relative;
+     }
+     .cssmarquee h1 {
+     font-size: 2em;
+     color: turquoise;
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     margin: 0;
+     line-height: 50px;
+     text-align: center;
+     transform:translateX(100%);
+     animation: cssmarquee 10s linear infinite;
+     }
+     @keyframes cssmarquee {
+     0% {
+     transform: translateX(100%);
+     }
+     100% {
+     transform: translateX(-100%);
+     }
+     }
